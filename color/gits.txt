@@ -1,0 +1,153 @@
+
+ctsjavafsd35@JavaFSD121 MINGW64 /d/GIT/oms
+$ git config --global user.name "saiteja2896"
+
+ctsjavafsd35@JavaFSD121 MINGW64 /d/GIT/oms
+$ git config --global user.email "saimaddikunta@gmail.com"
+
+ctsjavafsd35@JavaFSD121 MINGW64 /d/GIT/oms
+$ git init
+Initialized empty Git repository in D:/GIT/oms/.git/
+
+ctsjavafsd35@JavaFSD121 MINGW64 /d/GIT/oms (master)
+$ ^C
+
+ctsjavafsd35@JavaFSD121 MINGW64 /d/GIT/oms (master)
+$ git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+
+ctsjavafsd35@JavaFSD121 MINGW64 /d/GIT/oms (master)
+$ git add .
+warning: LF will be replaced by CRLF in .gitignore.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in .mvn/wrapper/MavenWrapperDownloader.java.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in .mvn/wrapper/maven-wrapper.properties.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in mvnw.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in mvnw.cmd.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in pom.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/main/java/com/cts/oms/OmsApplication.java.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/test/java/com/cts/oms/OmsApplicationTests.java.
+The file will have its original line endings in your working directory
+
+ctsjavafsd35@JavaFSD121 MINGW64 /d/GIT/oms (master)
+$ git commit -m "Project Structure"
+[master (root-commit) 9181314] Project Structure
+ 28 files changed, 1161 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 .mvn/wrapper/MavenWrapperDownloader.java
+ create mode 100644 .mvn/wrapper/maven-wrapper.jar
+ create mode 100644 .mvn/wrapper/maven-wrapper.properties
+ create mode 100644 mvnw
+ create mode 100644 mvnw.cmd
+ create mode 100644 pom.xml
+ create mode 100644 src/main/java/com/cts/oms/OmsApplication.java
+ create mode 100644 src/main/java/com/cts/oms/controller/OrderCreationController.java
+ create mode 100644 src/main/java/com/cts/oms/controller/OrderSearchController.java
+ create mode 100644 src/main/java/com/cts/oms/dto/OrderModelDto.java
+ create mode 100644 src/main/java/com/cts/oms/entity/OrderAccessory.java
+ create mode 100644 src/main/java/com/cts/oms/entity/OrderColor.java
+ create mode 100644 src/main/java/com/cts/oms/entity/OrderModel.java
+ create mode 100644 src/main/java/com/cts/oms/entity/OrderSearch.java
+ create mode 100644 src/main/java/com/cts/oms/entity/OrderSeries.java
+ create mode 100644 src/main/java/com/cts/oms/repository/OrderAccessoryRepository.java
+ create mode 100644 src/main/java/com/cts/oms/repository/OrderColorRepository.java
+ create mode 100644 src/main/java/com/cts/oms/repository/OrderModelRepository.java
+ create mode 100644 src/main/java/com/cts/oms/repository/OrderSearchRepository.java
+ create mode 100644 src/main/java/com/cts/oms/repository/OrderSeriesRepository.java
+ create mode 100644 src/main/java/com/cts/oms/service/OrderAccessoryService.java
+ create mode 100644 src/main/java/com/cts/oms/service/OrderColorService.java
+ create mode 100644 src/main/java/com/cts/oms/service/OrderModelService.java
+ create mode 100644 src/main/java/com/cts/oms/service/OrderSearchService.java
+ create mode 100644 src/main/java/com/cts/oms/service/OrderSeriesService.java
+ create mode 100644 src/main/resources/application.properties
+ create mode 100644 src/test/java/com/cts/oms/OmsApplicationTests.java
+
+ctsjavafsd35@JavaFSD121 MINGW64 /d/GIT/oms (master)
+$ git remote add origin https://gitgit remote add origin https://gith
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch>
+                          master branch
+    --mirror[=(push|fetch)]
+                          set up remote as a mirror to push to or fetch from
+
+
+ctsjavafsd35@JavaFSD121 MINGW64 /d/GIT/oms (master)
+$ git remote add origin https://gith
+
+ctsjavafsd35@JavaFSD121 MINGW64 /d/GIT/oms (master)
+$ git remote add origin https://github.com/saiteja2896/OrderManagemet.git
+fatal: remote origin already exists.
+
+ctsjavafsd35@JavaFSD121 MINGW64 /d/GIT/oms (master)
+$ git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+
+ctsjavafsd35@JavaFSD121 MINGW64 /d/GIT/oms (master)
+$ git push -u origin master
+fatal: unable to access 'https://gith/': Could not resolve host: gith
+
+ctsjavafsd35@JavaFSD121 MINGW64 /d/GIT/oms (master)
+$ git push -u origin master
+fatal: unable to access 'https://gith/': Could not resolve host: gith
+
+ctsjavafsd35@JavaFSD121 MINGW64 /d/GIT/oms (master)
+$ git push -u origin master
+fatal: unable to access 'https://gith/': Could not resolve host: gith
+
+ctsjavafsd35@JavaFSD121 MINGW64 /d/GIT/oms (master)
+$ git push -u origin master
+fatal: unable to access 'https://gith/': Could not resolve host: gith
+
+ctsjavafsd35@JavaFSD121 MINGW64 /d/GIT/oms (master)
+$ ^C
+
+ctsjavafsd35@JavaFSD121 MINGW64 /d/GIT/oms (master)
+$ git config --global --unset http.proxy
+
+ctsjavafsd35@JavaFSD121 MINGW64 /d/GIT/oms (master)
+$ git config --global user.name "saiteja2896"
+
+ctsjavafsd35@JavaFSD121 MINGW64 /d/GIT/oms (master)
+$ git config --global user.email "saimaddikunta@gmail.com"
+
+ctsjavafsd35@JavaFSD121 MINGW64 /d/GIT/oms (master)
+$ git push -u origin master
+fatal: unable to access 'https://gith/': Could not resolve host: gith
+
+ctsjavafsd35@JavaFSD121 MINGW64 /d/GIT/oms (master)
+$ ^C
+
+ctsjavafsd35@JavaFSD121 MINGW64 /d/GIT/oms (master)
+$ git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+
+ctsjavafsd35@JavaFSD121 MINGW64 /d/GIT/oms (master)
+$ git push origin master
+fatal: unable to access 'https://gith/': Could not resolve host: gith
+
+ctsjavafsd35@JavaFSD121 MINGW64 /d/GIT/oms (master)
+$ ^C
+
+ctsjavafsd35@
